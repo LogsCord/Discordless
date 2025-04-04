@@ -1,0 +1,26 @@
+{
+    "name": "@types/discordless",
+    "version": "0.1.0",
+    "description": "Global type definitions for modules developed with Discordless.",
+    "types": "types/global.d.ts",
+    "files": [
+        "types/global.d.ts"
+    ],
+    "homepage": "https://discordless.dev",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LogsCord/Discordless.git"
+    },
+    "bugs": {
+        "url": "https://github.com/LogsCord/Discordless/issues"
+    },
+    "keywords": [
+        "typescript",
+        "types",
+        "discord",
+        "bot",
+        "discordless"
+    ],
+    "author": "RealAlphabet <alphabet@lumzapp.com>",
+    "license": "MIT"
+}

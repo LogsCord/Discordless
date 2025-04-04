@@ -1,0 +1,49 @@
+{
+    "name": "discordless",
+    "version": "0.1.0",
+    "description": "CLI serverless pour déployer, gérer et développer des modules Discordless facilement.",
+    "type": "module",
+    "main": "dist/index.js",
+    "bin": {
+        "discordless": "dist/index.js",
+        "discordless-cli": "dist/index.js"
+    },
+    "homepage": "https://discordless.dev",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LogsCord/Discordless.git"
+    },
+    "bugs": {
+        "url": "https://github.com/LogsCord/Discordless/issues"
+    },
+    "scripts": {
+        "dev": "ts-node src/index.ts",
+        "build": "tsc",
+        "prepublishOnly": "pnpm build"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "cli",
+        "serverless",
+        "framework",
+        "discordless"
+    ],
+    "author": "RealAlphabet <alphabet@lumzapp.com>",
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "packageManager": "pnpm@10.7.0",
+    "dependencies": {
+        "@inquirer/prompts": "^7.4.1",
+        "axios": "^1.8.4",
+        "commander": "^13.1.0",
+        "fs-extra": "^11.3.0"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.3"
+    }
+}
